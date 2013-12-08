@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		179230211854AD0B00939648 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179230201854AD0B00939648 /* Foundation.framework */; };
+		179230231854AD0B00939648 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179230221854AD0B00939648 /* CoreGraphics.framework */; };
+		179230251854AD0B00939648 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179230241854AD0B00939648 /* UIKit.framework */; };
+		1792302B1854AD0B00939648 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 179230291854AD0B00939648 /* InfoPlist.strings */; };
+		1792302D1854AD0B00939648 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1792302C1854AD0B00939648 /* main.m */; };
+		179230311854AD0B00939648 /* GkGkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 179230301854AD0B00939648 /* GkGkAppDelegate.m */; };
+		179230331854AD0B00939648 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179230321854AD0B00939648 /* Images.xcassets */; };
+		1792303A1854AD0B00939648 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179230391854AD0B00939648 /* XCTest.framework */; };
+		1792303B1854AD0B00939648 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179230201854AD0B00939648 /* Foundation.framework */; };
+		1792303C1854AD0B00939648 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179230241854AD0B00939648 /* UIKit.framework */; };
+		179230441854AD0B00939648 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 179230421854AD0B00939648 /* InfoPlist.strings */; };
+		179230461854AD0B00939648 /* RightHereMailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 179230451854AD0B00939648 /* RightHereMailTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1792303D1854AD0B00939648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 179230151854AD0B00939648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1792301C1854AD0B00939648;
+			remoteInfo = RightHereMail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1792301D1854AD0B00939648 /* RightHereMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RightHereMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		179230201854AD0B00939648 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		179230221854AD0B00939648 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		179230241854AD0B00939648 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		179230281854AD0B00939648 /* RightHereMail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RightHereMail-Info.plist"; sourceTree = "<group>"; };
+		1792302A1854AD0B00939648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1792302C1854AD0B00939648 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1792302E1854AD0B00939648 /* RightHereMail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RightHereMail-Prefix.pch"; sourceTree = "<group>"; };
+		1792302F1854AD0B00939648 /* GkGkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GkGkAppDelegate.h; sourceTree = "<group>"; };
+		179230301854AD0B00939648 /* GkGkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GkGkAppDelegate.m; sourceTree = "<group>"; };
+		179230321854AD0B00939648 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		179230381854AD0B00939648 /* RightHereMailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RightHereMailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		179230391854AD0B00939648 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		179230411854AD0B00939648 /* RightHereMailTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RightHereMailTests-Info.plist"; sourceTree = "<group>"; };
+		179230431854AD0B00939648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		179230451854AD0B00939648 /* RightHereMailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightHereMailTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1792301A1854AD0B00939648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179230231854AD0B00939648 /* CoreGraphics.framework in Frameworks */,
+				179230251854AD0B00939648 /* UIKit.framework in Frameworks */,
+				179230211854AD0B00939648 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179230351854AD0B00939648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1792303A1854AD0B00939648 /* XCTest.framework in Frameworks */,
+				1792303C1854AD0B00939648 /* UIKit.framework in Frameworks */,
+				1792303B1854AD0B00939648 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		179230141854AD0B00939648 = {
+			isa = PBXGroup;
+			children = (
+				179230261854AD0B00939648 /* RightHereMail */,
+				1792303F1854AD0B00939648 /* RightHereMailTests */,
+				1792301F1854AD0B00939648 /* Frameworks */,
+				1792301E1854AD0B00939648 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1792301E1854AD0B00939648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1792301D1854AD0B00939648 /* RightHereMail.app */,
+				179230381854AD0B00939648 /* RightHereMailTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1792301F1854AD0B00939648 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				179230201854AD0B00939648 /* Foundation.framework */,
+				179230221854AD0B00939648 /* CoreGraphics.framework */,
+				179230241854AD0B00939648 /* UIKit.framework */,
+				179230391854AD0B00939648 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		179230261854AD0B00939648 /* RightHereMail */ = {
+			isa = PBXGroup;
+			children = (
+				1792302F1854AD0B00939648 /* GkGkAppDelegate.h */,
+				179230301854AD0B00939648 /* GkGkAppDelegate.m */,
+				179230321854AD0B00939648 /* Images.xcassets */,
+				179230271854AD0B00939648 /* Supporting Files */,
+			);
+			path = RightHereMail;
+			sourceTree = "<group>";
+		};
+		179230271854AD0B00939648 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				179230281854AD0B00939648 /* RightHereMail-Info.plist */,
+				179230291854AD0B00939648 /* InfoPlist.strings */,
+				1792302C1854AD0B00939648 /* main.m */,
+				1792302E1854AD0B00939648 /* RightHereMail-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1792303F1854AD0B00939648 /* RightHereMailTests */ = {
+			isa = PBXGroup;
+			children = (
+				179230451854AD0B00939648 /* RightHereMailTests.m */,
+				179230401854AD0B00939648 /* Supporting Files */,
+			);
+			path = RightHereMailTests;
+			sourceTree = "<group>";
+		};
+		179230401854AD0B00939648 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				179230411854AD0B00939648 /* RightHereMailTests-Info.plist */,
+				179230421854AD0B00939648 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1792301C1854AD0B00939648 /* RightHereMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179230491854AD0B00939648 /* Build configuration list for PBXNativeTarget "RightHereMail" */;
+			buildPhases = (
+				179230191854AD0B00939648 /* Sources */,
+				1792301A1854AD0B00939648 /* Frameworks */,
+				1792301B1854AD0B00939648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RightHereMail;
+			productName = RightHereMail;
+			productReference = 1792301D1854AD0B00939648 /* RightHereMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		179230371854AD0B00939648 /* RightHereMailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1792304C1854AD0B00939648 /* Build configuration list for PBXNativeTarget "RightHereMailTests" */;
+			buildPhases = (
+				179230341854AD0B00939648 /* Sources */,
+				179230351854AD0B00939648 /* Frameworks */,
+				179230361854AD0B00939648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1792303E1854AD0B00939648 /* PBXTargetDependency */,
+			);
+			name = RightHereMailTests;
+			productName = RightHereMailTests;
+			productReference = 179230381854AD0B00939648 /* RightHereMailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		179230151854AD0B00939648 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GkGk;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = pies;
+				TargetAttributes = {
+					179230371854AD0B00939648 = {
+						TestTargetID = 1792301C1854AD0B00939648;
+					};
+				};
+			};
+			buildConfigurationList = 179230181854AD0B00939648 /* Build configuration list for PBXProject "RightHereMail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 179230141854AD0B00939648;
+			productRefGroup = 1792301E1854AD0B00939648 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1792301C1854AD0B00939648 /* RightHereMail */,
+				179230371854AD0B00939648 /* RightHereMailTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1792301B1854AD0B00939648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1792302B1854AD0B00939648 /* InfoPlist.strings in Resources */,
+				179230331854AD0B00939648 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179230361854AD0B00939648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179230441854AD0B00939648 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		179230191854AD0B00939648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179230311854AD0B00939648 /* GkGkAppDelegate.m in Sources */,
+				1792302D1854AD0B00939648 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179230341854AD0B00939648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179230461854AD0B00939648 /* RightHereMailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1792303E1854AD0B00939648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1792301C1854AD0B00939648 /* RightHereMail */;
+			targetProxy = 1792303D1854AD0B00939648 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		179230291854AD0B00939648 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1792302A1854AD0B00939648 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		179230421854AD0B00939648 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				179230431854AD0B00939648 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		179230471854AD0B00939648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		179230481854AD0B00939648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1792304A1854AD0B00939648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RightHereMail/RightHereMail-Prefix.pch";
+				INFOPLIST_FILE = "RightHereMail/RightHereMail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1792304B1854AD0B00939648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RightHereMail/RightHereMail-Prefix.pch";
+				INFOPLIST_FILE = "RightHereMail/RightHereMail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1792304D1854AD0B00939648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RightHereMail.app/RightHereMail";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RightHereMail/RightHereMail-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RightHereMailTests/RightHereMailTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1792304E1854AD0B00939648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RightHereMail.app/RightHereMail";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RightHereMail/RightHereMail-Prefix.pch";
+				INFOPLIST_FILE = "RightHereMailTests/RightHereMailTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		179230181854AD0B00939648 /* Build configuration list for PBXProject "RightHereMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179230471854AD0B00939648 /* Debug */,
+				179230481854AD0B00939648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179230491854AD0B00939648 /* Build configuration list for PBXNativeTarget "RightHereMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1792304A1854AD0B00939648 /* Debug */,
+				1792304B1854AD0B00939648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1792304C1854AD0B00939648 /* Build configuration list for PBXNativeTarget "RightHereMailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1792304D1854AD0B00939648 /* Debug */,
+				1792304E1854AD0B00939648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 179230151854AD0B00939648 /* Project object */;
+}
