@@ -7,15 +7,36 @@
 //
 
 #import "GkGkAppDelegate.h"
+#import <GoogleMaps/GoogleMaps.h>
+
+//AIzaSyBK0VTnXR11G1ERZlhZmw_bkW85z2lrxCE
+
 
 @implementation GkGkAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    // Override point for customization after application launch.
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    [self.window makeKeyAndVisible];
+    
+    
+    [GMSServices provideAPIKey:@"AIzaSyBK0VTnXR11G1ERZlhZmw_bkW85z2lrxCE"];
+
+    NSLog(@"#########################");
+    NSLog(@"#########################");
+    NSLog(@"#########################");
+    NSLog(@"%@", NSHomeDirectory());
+    NSURL *hogeDir = [[NSURL alloc] initWithString:NSHomeDirectory()];
+//    NSURL *hogeDir = NSHomeDirectory();
+    NSURL *ggDir = [hogeDir                  URLByAppendingPathComponent:@"/Documents"];
+    NSLog(@"%@", ggDir);
+
+    NSLog(@"#########################");
+    NSLog(@"#########################");
+    NSLog(@"#########################");
+    
     return YES;
 }
 
@@ -44,6 +65,18 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (id)dataManager
+{
+    if (_dataManager == nil){        
+        _dataManager = [[GkGkRHMManager alloc] initWithDaoObj:@"rightheremail.sqlite"];
+        if (_dataManager == nil) {
+            NSLog(@"init failed(DataManager)...");
+            abort();
+        }
+    }
+    return _dataManager;
 }
 
 @end
